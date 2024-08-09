@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const app = express();
 app.use(cors({
-  origin:["https://client-repo.vercel.app/"],
+  origin:["https://client-repo.vercel.app"],
   methods:"POST",
   credentials:true
 }));
